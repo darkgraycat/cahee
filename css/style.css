@@ -113,7 +113,7 @@ font-family: 'Raleway', sans-serif;
 
 .hero-block {
   display: flex;
-  background: url("../../img/hero-img.png") no-repeat center;
+  background: url("../img/hero-img.png") no-repeat center;
   background-size: cover;
   min-height: 700px;
   height: 100%;
@@ -163,7 +163,7 @@ font-family: 'Raleway', sans-serif;
   align-items: center;
 }
 .about-block__image {
-  background: url("../../img/about-img.png") no-repeat left;
+  background: url("../img/about-img.png") no-repeat left;
   background-size: contain;
   max-width: 550px;
   height: 550px;
@@ -218,7 +218,7 @@ font-family: 'Raleway', sans-serif;
   }
 }
 .services-block__image {
-  background: url("../../img/services-img.png") no-repeat center;
+  background: url("../img/services-img.png") no-repeat center;
   background-size: contain;
   max-width: 550px;
   height: 550px;
