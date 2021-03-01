@@ -32,6 +32,8 @@
 		font-weight: 300;
 		font-family: $font_main;
 		padding-bottom: 25px;
+		text-align: justify;
+
 
 		@media (max-width: 600px) {
 			max-width: 220px;
@@ -40,7 +42,7 @@
 
 	&__button {
 		background-color: #ff6033;
-		color: #ffffff;
+		color: $clr_text_light;
 		font-family: $font_main;
 	}
 

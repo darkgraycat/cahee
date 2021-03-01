@@ -15,6 +15,7 @@
 	&__image {
 		background: url('../img/about-img.png') no-repeat left;
 		background-size: contain;
+		filter: drop-shadow(-16px 8px 25px rgba(0,0,0,0.5));
 		max-width: 550px;
 		height: 550px;
 		width: 100%;
@@ -32,7 +33,6 @@
 
 	// TODO: refactor to titled-text component
 	&__text {
-		// margin: 0 10px;
 	}
 
 	&__title {
@@ -50,5 +50,6 @@
 		color: $clr_text_light;
 		font-weight: 300;
 		font-family: $font_main;
+		text-align: justify;
 	}
 }

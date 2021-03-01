@@ -30,7 +30,9 @@
 		font-size: 54px;
 	}
 
-	&:hover > &__icon {
-		color: $clr_navigation_highlight;
+	&:hover > &__icon,
+	&:hover > &__text {		
+		color: #70bfff;
+		text-shadow: 0px 4px 8px #70bfff;
 	}
 }
