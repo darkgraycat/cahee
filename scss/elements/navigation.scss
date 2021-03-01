@@ -21,7 +21,6 @@
 		margin: 5px;
 		padding-top: 5px;
 		border-top: 3px solid transparent;
-		transition: all .5s ease-in;
 
 		&:hover {
 			border-top-color: $clr_navigation_highlight;
@@ -95,6 +94,7 @@
 		&__item {
 			font-size: 24px;
 			background-color: #fff4;
+			transition: all .5s ease-in;
 		}
 	}
 
