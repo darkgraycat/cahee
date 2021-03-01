@@ -544,7 +544,6 @@ font-family: 'Raleway', sans-serif;
   margin: 5px;
   padding-top: 5px;
   border-top: 3px solid transparent;
-  transition: all 0.5s ease-in;
 }
 .navigation__item:hover {
   border-top-color: #ff6033;
@@ -603,7 +602,8 @@ font-family: 'Raleway', sans-serif;
   }
   .navigation__item {
     font-size: 24px;
-    background-color: #fff4;
+    background-color: #fff6;
+    transition: all 0.5s ease-in;
   }
 }
 
